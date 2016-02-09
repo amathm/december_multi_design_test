@@ -1,0 +1,42 @@
+﻿/* Css styling for december index.html */
+
+body {
+	padding:0;
+	margin:0;
+}
+.container {
+	margin:0 auto;
+	max-width:1200px;
+	height:100%;
+}
+header {
+	width:94%;
+	padding:3%;
+	background-color:tomato;
+	text-align:center;
+}
+aside {
+	float:left;
+	padding:3%;
+	width:14%;
+	background-color: #f0f8ff;
+	margin-top:47px;
+}
+section {
+	float:right;
+	width:75%;
+	padding:2%;
+}
+article {
+	max-width:95%;
+}
+footer {
+	clear:both;
+	background-color: #FF5722;
+	text-align:center;
+}
+.iframe-ad {
+	width:400px;
+	height:200px;
+	border:none;
+}

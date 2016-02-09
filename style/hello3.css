@@ -1,0 +1,28 @@
+﻿/* Hello2.html css hello2.css */
+body {
+	background:#000;
+	color:#fff;
+}
+.body-wrap {
+	width:1200px;
+	margin:0 auto;
+	border:1px solid red;
+}
+.floating-box {
+	display:-moz-inline-stack;
+	display:inline-block;
+	box-sizing:border-box;
+	vertical-align:top;
+}
+.body-wrap div:first-child {
+	width:70%;
+	background:red;
+	padding:10px;
+}
+.body-wrap div:last-child {
+	width:20%;
+	background:green;
+}
+h2.header-main {
+	text-align:center;
+}

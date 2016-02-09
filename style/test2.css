@@ -1,0 +1,73 @@
+﻿/* css for test2.html in file test2.css */
+* {
+	margin:0;
+	padding:0;
+}
+body {
+	font-size:100%;
+}
+header {
+	border:1px solid #000;
+	height:100vh;
+	box-sizing: border-box;
+	color:#fff;
+	background: #000;
+	text-align:center;
+	background: #0f0 url(../images/vingreen.jpg) no-repeat 0% 30%;
+	background-size:cover;
+}
+.header-wrap {
+	width:1200px;
+	margin:0 auto;
+}
+.header-wrap h1, .content-wrap h2 {
+	padding-top:200px;
+}
+.header-wrap h1 {
+	font-size:6em;
+	color:purple;
+}
+.content-wrap h2 {
+	font-size:5em;
+	color:purple;
+}
+.midlap h2 {
+	font-size:5em;
+	color:#696969;
+}
+.midlap p {
+	font-size:1.2em;
+	color:#696969;
+}
+.header-wrap p, .content-wrap p {
+	font-size:1.2em;
+	color:#fff;
+}
+section.sect {
+	height:100vh;
+	background:#000 url(../images/carvin.jpg) no-repeat 0% 70%;
+	background-size:cover;
+	color:#000;
+}
+.content-wrap {
+	width:800px;
+	height:50px;
+	margin:0 auto;
+	background:transparent;
+	text-align:center;
+}
+footer {
+	background:#000;
+	color:#fff;
+	text-align:center;
+	height:35px;
+}
+.midlap {
+	background:#fff;
+	height:400px;
+	text-align:center;
+	border:1px solid #fff;
+}
+.midlap article {
+	padding-top:100px;
+}

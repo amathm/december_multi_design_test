@@ -1,0 +1,27 @@
+﻿/* ------------
+ Hello4.html style folder css file name style4.css
+---------------------------------------------------------- */
+body {
+	background:#fff;
+}
+div.slider-wrap * {
+	margin:0;
+	padding:0;
+	border: none;
+	list-style: none;
+}
+.s-thumbs li {
+	float:left;
+	margin: 0 11px 10px 0;
+}
+.s-thumbs li:last-child {
+	margin-left: 1px;
+	margin-right: 0;
+}
+.s-thumbs a {
+	display:block;
+	position:relative;
+	width:55px;
+	height:55px;
+	border: 4px solid transparent;
+}
